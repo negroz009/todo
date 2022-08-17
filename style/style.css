@@ -1,40 +1,22 @@
-body {
-  background-color: aliceblue;
-  color: #2a2929;
-}
 
-.container {
-  padding: 100px;
-}
+img{
+  width: 400px;
+  object-fit: center;
+  border-radius: 200px;
+  border: 6px solid white;
+  transition: all;
+  text-align: center;
+  }
 
-.title {
-  font-size: 50px;
-  color: rgb(43, 43, 43);
-}
 
-.desc-content {
-  width: 30em;
-}
-
-.form-label {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.todo-input {
-  outline: none;
-  width: 50%;
-  height: 30px;
-  transition: 00.1ms;
-  border-color: darkgray;
-  box-shadow: none;
-  padding-left: 10px;
-}
-
-.todo-input:focus{
-  width: 70%;
-  transition: 0.1ms;
-  border-color: darkgray !important;
-}
+.container{
+  height:100vh;
+  text-align: center;
+  font-family: Cambria;
+  background:linear-gradient(
+    to bottom,
+  rgb(247, 241, 241) 0%,
+  rgb(247, 241, 241) 50%,
+  white 50%,
+  white 100%
+    );
