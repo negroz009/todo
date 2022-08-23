@@ -5,12 +5,11 @@ img{
   border-radius: 200px;
   border: 6px solid white;
   transition: all;
-  text-align: center;
   }
 
 
 .container{
-  height:100vh;
+  height:95vh;
   text-align: center;
   font-family: Cambria;
   background:linear-gradient(
@@ -20,3 +19,13 @@ img{
   white 50%,
   white 100%
     );
+  }
+  
+  .links{
+    text-align: center;
+    font-family: Cambria;
+  }
+
+  .links a:hover{
+    color: brown;
+  }
