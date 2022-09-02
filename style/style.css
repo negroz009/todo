@@ -1,18 +1,16 @@
-
 img{
-  width: 400px;
-  object-fit: center;
-  border-radius: 200px;
-  border: 6px solid white;
-  transition: all;
-  }
-
+    width: 400px;
+    object-fit: center;
+    border-radius: 200px;
+    border: 6px solid white;
+    transition: all;
+    }
 
 .container{
-  height:95vh;
-  text-align: center;
-  font-family: Cambria;
-  background:linear-gradient(
+    height:95vh;
+    text-align: center;
+    font-family: Cambria;
+    background:linear-gradient(
     to bottom,
   rgb(247, 241, 241) 0%,
   rgb(247, 241, 241) 50%,
@@ -25,7 +23,6 @@ img{
     text-align: center;
     font-family: Cambria;
   }
-
   .links a:hover{
     color: brown;
   }

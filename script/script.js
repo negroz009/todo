@@ -8,19 +8,6 @@ let answerVal=accountBalance%age;
 let a=2===2;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*document.getElementById("profile-name").innerHTML=name;
+document.getElementById("text-name").innerHTML=text;
+*/
